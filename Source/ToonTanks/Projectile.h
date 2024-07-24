@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "Components/StaticMeshComponent.h"
 #include "Projectile.generated.h"
 
 UCLASS()
@@ -22,6 +23,7 @@ protected:
 private:
 	UPROPERTY(EditAnywhere, Category = "Actors")
 	UStaticMeshComponent *ProjectileMesh;
+
 
 public:	
 	// Called every frame

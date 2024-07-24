@@ -1,23 +1,52 @@
 {
     "configurations": [
         {
-            "name": "Win32",
+            "name": "Win64",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${workspaceFolder}/Source/**",
                 "C:/Program Files/Epic Games/UE_5.2/Engine/Source/**",
-                "C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/**"                
+                "C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/**",
+                "C:/Program Files/Epic Games/UE_5.2/Engine/Intermediate/Build/Win64/UnrealEditor/Inc/**",
+                "C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Runtime/**",
+                "${workspaceFolder}/Intermediate/Build/Win64/UnrealEditor/Inc/**",
             ],
             "defines": [
                 "_DEBUG",
                 "UNICODE",
-                "_UNICODE"
+                "_UNICODE",
+                "UE_BUILD_DEVELOPMENT",
+                "UE_4_COMPAT",
+                "WITH_DEV_AUTOMATION_TESTS",
+                "WITH_PERF_AUTOMATION_TESTS",
+                "UNICODE",
+                "_UNICODE",
+                "__UNREAL__",
+                "IS_PROGRAM=0",
+                "UE_GAME=1",
+                "WITH_ENGINE=1",
+                "WITH_UNREAL_DEVELOPER_TOOLS=1",
+                "WITH_APPLICATION_CORE=1",
+                "WITH_COREUOBJECT=1",
+                "USE_STATS_WITHOUT_ENGINE=0",
+                "WITH_PLUGIN_SUPPORT=0",
+                "WITH_PERFCOUNTERS=1",
+                "USE_LOGGING_IN_SHIPPING=0",
+                "WITH_LOGGING_TO_MEMORY=0",
+                "USE_CACHE_FREED_OS_ALLOCS=1",
+                "USE_CHECKS_IN_SHIPPING=0",
+                "WITH_EDITOR=0",
+                "WITH_EDITORONLY_DATA=0",
+                "WITH_SERVER_CODE=1",
+                "WITH_CEF3=1",
+                "WITH_XGE_CONTROLLER=0",
+                "UBT_COMPILED_PLATFORM=Win64",
+                "UE_PROJECT_NAME=YourProjectName",
+                "PLATFORM_WINDOWS"
             ],
-            "windowsSdkVersion": "10.0.22621.0",
-            "compilerPath": "cl.exe",
+            "intelliSenseMode": "msvc-x64",
+            "compilerPath": "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.30.30705/bin/Hostx64/x64/cl.exe",
             "cStandard": "c17",
-            "cppStandard": "c++17",
-            "intelliSenseMode": "windows-msvc-x64"
+            "cppStandard": "c++17"
         }
     ],
     "version": 4
