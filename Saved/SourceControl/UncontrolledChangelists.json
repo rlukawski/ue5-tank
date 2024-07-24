@@ -1,0 +1,18 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/rsluk/Documents/Unreal Projects/git/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset",
+				"C:/Users/rsluk/Documents/Unreal Projects/git/ToonTanks/Content/Maps/Main.umap",
+				"C:/Users/rsluk/Documents/Unreal Projects/git/ToonTanks/Content/Blueprints/Pawns/BP_PawnTurret.uasset",
+				"C:/Users/rsluk/Documents/Unreal Projects/git/ue5-tank/Content/Maps/Main.umap",
+				"C:/Users/rsluk/Documents/Unreal Projects/git/ue5-tank/Content/Blueprints/Actors/BP_Projectile.uasset",
+				"C:/Users/rsluk/Documents/Unreal Projects/git/ue5-tank/Content/Blueprints/Pawns/BP_PawnTank.uasset",
+				"C:/Users/rsluk/Documents/Unreal Projects/git/ue5-tank/Content/BP_Projectile.uasset"
+			]
+		}
+	]
+}
