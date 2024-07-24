@@ -27,9 +27,22 @@ ABasePawn::ABasePawn()
 
 void ABasePawn::RotateTurret(FVector LookAtTarget)
 {
-	FVector ToTarget = LookAtTarget - TurretMesh->GetComponentLocation();
-	FRotator LookAtRotation = FRotator(0.f, ToTarget.Rotation().Yaw, 0.f);
-	TurretMesh->SetWorldRotation(LookAtRotation);
+    FVector ToTarget = LookAtTarget - TurretMesh->GetComponentLocation();
+    FRotator LookAtRotation = FRotator(0.f, ToTarget.Rotation().Yaw, 0.f);
+    
+    // Pobierz aktualną rotację wieżyczki
+    FRotator CurrentRotation = TurretMesh->GetComponentRotation();
+    
+    // Wykonaj interpolację
+    FRotator NewRotation = FMath::RInterpTo(
+        CurrentRotation,
+        LookAtRotation,
+        GetWorld()->GetDeltaSeconds(),
+        5.0f  // Prędkość obrotu, możesz dostosować tę wartość
+    );
+    
+    // Ustaw nową rotację
+    TurretMesh->SetWorldRotation(NewRotation);
 }
 
 void ABasePawn::Fire()

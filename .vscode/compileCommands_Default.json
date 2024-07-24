@@ -1,73 +1,89 @@
 [
 	{
-		"file": "C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ToonTanks\\Source\\ToonTanks\\BP_PawnTurret.cpp",
+		"file": "C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ue5-tank\\Source\\ToonTanks\\BP_PawnTurret.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.255.rsp"
+			"@C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ue5-tank\\.vscode\\compileCommands_Default\\ToonTanks.255.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ToonTanks\\Source\\ToonTanks\\BP_PawnTurret.h",
+		"file": "C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ue5-tank\\Source\\ToonTanks\\BP_PawnTurret.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.255.rsp"
+			"@C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ue5-tank\\.vscode\\compileCommands_Default\\ToonTanks.255.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ToonTanks\\Source\\ToonTanks\\BasePawn.cpp",
+		"file": "C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ue5-tank\\Source\\ToonTanks\\BasePawn.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.255.rsp"
+			"@C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ue5-tank\\.vscode\\compileCommands_Default\\ToonTanks.255.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ToonTanks\\Source\\ToonTanks\\BasePawn.h",
+		"file": "C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ue5-tank\\Source\\ToonTanks\\BasePawn.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.255.rsp"
+			"@C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ue5-tank\\.vscode\\compileCommands_Default\\ToonTanks.255.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ToonTanks\\Source\\ToonTanks\\Tank.cpp",
+		"file": "C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ue5-tank\\Source\\ToonTanks\\Tank.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.255.rsp"
+			"@C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ue5-tank\\.vscode\\compileCommands_Default\\ToonTanks.255.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ToonTanks\\Source\\ToonTanks\\Tank.h",
+		"file": "C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ue5-tank\\Source\\ToonTanks\\Tank.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.255.rsp"
+			"@C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ue5-tank\\.vscode\\compileCommands_Default\\ToonTanks.255.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ToonTanks\\Source\\ToonTanks\\ToonTanks.Build.cs",
+		"file": "C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ue5-tank\\Source\\ToonTanks\\ToonTanks.Build.cs",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.255.rsp"
+			"@C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ue5-tank\\.vscode\\compileCommands_Default\\ToonTanks.255.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ToonTanks\\Source\\ToonTanks\\ToonTanks.cpp",
+		"file": "C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ue5-tank\\Source\\ToonTanks\\ToonTanks.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.255.rsp"
+			"@C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ue5-tank\\.vscode\\compileCommands_Default\\ToonTanks.255.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ToonTanks\\Source\\ToonTanks\\ToonTanks.h",
+		"file": "C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ue5-tank\\Source\\ToonTanks\\ToonTanks.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.255.rsp"
+			"@C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ue5-tank\\.vscode\\compileCommands_Default\\ToonTanks.255.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ue5-tank\\Source\\ToonTanks\\Tower.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ue5-tank\\.vscode\\compileCommands_Default\\ToonTanks.255.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ue5-tank\\Source\\ToonTanks\\Tower.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ue5-tank\\.vscode\\compileCommands_Default\\ToonTanks.255.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
 	}

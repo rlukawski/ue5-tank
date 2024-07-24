@@ -2,127 +2,151 @@
 	"version": "0.2.0",
 	"configurations": [
 		{
-			"name": "ToonTanks (Debug)",
+			"name": "Launch ToonTanks (Debug)",
 			"request": "launch",
+			"program": "C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ue5-tank\\Binaries\\Win64\\UnrealGame-Win64-Debug.exe",
 			"preLaunchTask": "ToonTanks Win64 Debug Build",
-			"program": "C:\\GameDev\\ToonTanksV2\\Binaries\\Win64\\UE4-Win64-Debug.exe",
 			"args": [
 			],
-			"cwd": "C:\\Program Files\\Epic Games\\UE_4.25",
+			"cwd": "C:\\Program Files\\Epic Games\\UE_5.2",
 			"stopAtEntry": false,
-			"externalConsole": true,
+			"console": "externalTerminal",
 			"type": "cppvsdbg",
-			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
 		},
 		{
-			"name": "ToonTanks (DebugGame)",
+			"name": "Launch ToonTanks (DebugGame)",
 			"request": "launch",
+			"program": "C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ue5-tank\\Binaries\\Win64\\UnrealGame-Win64-DebugGame.exe",
 			"preLaunchTask": "ToonTanks Win64 DebugGame Build",
-			"program": "C:\\GameDev\\ToonTanksV2\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
 			"args": [
 			],
-			"cwd": "C:\\Program Files\\Epic Games\\UE_4.25",
+			"cwd": "C:\\Program Files\\Epic Games\\UE_5.2",
 			"stopAtEntry": false,
-			"externalConsole": true,
+			"console": "externalTerminal",
 			"type": "cppvsdbg",
-			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
 		},
 		{
-			"name": "ToonTanks (Development)",
+			"name": "Launch ToonTanks (Development)",
 			"request": "launch",
+			"program": "C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ue5-tank\\Binaries\\Win64\\UnrealGame.exe",
 			"preLaunchTask": "ToonTanks Win64 Development Build",
-			"program": "C:\\GameDev\\ToonTanksV2\\Binaries\\Win64\\UE4.exe",
 			"args": [
 			],
-			"cwd": "C:\\Program Files\\Epic Games\\UE_4.25",
+			"cwd": "C:\\Program Files\\Epic Games\\UE_5.2",
 			"stopAtEntry": false,
-			"externalConsole": true,
+			"console": "externalTerminal",
 			"type": "cppvsdbg",
-			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
 		},
 		{
-			"name": "ToonTanks (Shipping)",
+			"name": "Launch ToonTanks (Test)",
 			"request": "launch",
-			"preLaunchTask": "ToonTanks Win64 Shipping Build",
-			"program": "C:\\GameDev\\ToonTanksV2\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
-			"args": [
-			],
-			"cwd": "C:\\Program Files\\Epic Games\\UE_4.25",
-			"stopAtEntry": false,
-			"externalConsole": true,
-			"type": "cppvsdbg",
-			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
-		},
-		{
-			"name": "ToonTanks (Test)",
-			"request": "launch",
+			"program": "C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ue5-tank\\Binaries\\Win64\\UnrealGame-Win64-Test.exe",
 			"preLaunchTask": "ToonTanks Win64 Test Build",
-			"program": "C:\\GameDev\\ToonTanksV2\\Binaries\\Win64\\UE4-Win64-Test.exe",
 			"args": [
 			],
-			"cwd": "C:\\Program Files\\Epic Games\\UE_4.25",
+			"cwd": "C:\\Program Files\\Epic Games\\UE_5.2",
 			"stopAtEntry": false,
-			"externalConsole": true,
+			"console": "externalTerminal",
 			"type": "cppvsdbg",
-			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
 		},
 		{
-			"name": "ToonTanksEditor (Debug)",
+			"name": "Launch ToonTanks (Shipping)",
 			"request": "launch",
+			"program": "C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ue5-tank\\Binaries\\Win64\\UnrealGame-Win64-Shipping.exe",
+			"preLaunchTask": "ToonTanks Win64 Shipping Build",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_5.2",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"name": "Launch ToonTanksEditor (Debug)",
+			"request": "launch",
+			"program": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-Debug.exe",
 			"preLaunchTask": "ToonTanksEditor Win64 Debug Build",
-			"program": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
 			"args": [
-				"C:\\GameDev\\ToonTanksV2\\ToonTanks.uproject"
+				"C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ue5-tank\\ToonTanks.uproject"
 			],
-			"cwd": "C:\\Program Files\\Epic Games\\UE_4.25",
+			"cwd": "C:\\Program Files\\Epic Games\\UE_5.2",
 			"stopAtEntry": false,
-			"externalConsole": true,
+			"console": "externalTerminal",
 			"type": "cppvsdbg",
-			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
 		},
 		{
-			"name": "ToonTanksEditor (DebugGame)",
+			"name": "Launch ToonTanksEditor (DebugGame)",
 			"request": "launch",
+			"program": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-DebugGame.exe",
 			"preLaunchTask": "ToonTanksEditor Win64 DebugGame Build",
-			"program": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
 			"args": [
-				"C:\\GameDev\\ToonTanksV2\\ToonTanks.uproject"
+				"C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ue5-tank\\ToonTanks.uproject"
 			],
-			"cwd": "C:\\Program Files\\Epic Games\\UE_4.25",
+			"cwd": "C:\\Program Files\\Epic Games\\UE_5.2",
 			"stopAtEntry": false,
-			"externalConsole": true,
+			"console": "externalTerminal",
 			"type": "cppvsdbg",
-			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
 		},
 		{
-			"name": "ToonTanksEditor (Development)",
+			"name": "Launch ToonTanksEditor (Development)",
 			"request": "launch",
+			"program": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Binaries\\Win64\\UnrealEditor.exe",
 			"preLaunchTask": "ToonTanksEditor Win64 Development Build",
-			"program": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Binaries\\Win64\\UE4Editor.exe",
 			"args": [
-				"C:\\GameDev\\ToonTanksV2\\ToonTanks.uproject"
+				"C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ue5-tank\\ToonTanks.uproject"
 			],
-			"cwd": "C:\\Program Files\\Epic Games\\UE_4.25",
+			"cwd": "C:\\Program Files\\Epic Games\\UE_5.2",
 			"stopAtEntry": false,
-			"externalConsole": true,
+			"console": "externalTerminal",
 			"type": "cppvsdbg",
-			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
 		},
 		{
 			"name": "Generate Project Files",
-			"type": "clr",
+			"type": "coreclr",
 			"request": "launch",
-			"program": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
-			"console": "externalTerminal",
+			"program": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Build\\BatchFiles\\RunUBT.bat",
 			"args": [
 				"-projectfiles",
 				"-vscode",
-				"-project=\"C:\\GameDev\\ToonTanksV2\\ToonTanks.uproject\"",
+				"-project=C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ue5-tank\\ToonTanks.uproject",
 				"-game",
 				"-engine"
 			],
-			"internalConsoleOptions": "openOnSessionStart",
-			"cwd": "C:\\Program Files\\Epic Games\\UE_4.25"
+			"console": "externalTerminal",
+			"stopAtEntry": false,
+			"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
 		}
 	]
 }

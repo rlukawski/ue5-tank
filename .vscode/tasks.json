@@ -2,276 +2,6 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
-			"label": "ToonTanks Win32 Debug Build",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"ToonTanks",
-				"Win32",
-				"Debug",
-				"C:\\GameDev\\ToonTanksV2\\ToonTanks.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_4.25"
-			}
-		},
-		{
-			"label": "ToonTanks Win32 Debug Rebuild",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"ToonTanks",
-				"Win32",
-				"Debug",
-				"C:\\GameDev\\ToonTanksV2\\ToonTanks.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"dependsOn": [
-				"ToonTanks Win32 Debug Clean"
-			],
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_4.25"
-			}
-		},
-		{
-			"label": "ToonTanks Win32 Debug Clean",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
-			"args": [
-				"ToonTanks",
-				"Win32",
-				"Debug",
-				"C:\\GameDev\\ToonTanksV2\\ToonTanks.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_4.25"
-			}
-		},
-		{
-			"label": "ToonTanks Win32 DebugGame Build",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"ToonTanks",
-				"Win32",
-				"DebugGame",
-				"C:\\GameDev\\ToonTanksV2\\ToonTanks.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_4.25"
-			}
-		},
-		{
-			"label": "ToonTanks Win32 DebugGame Rebuild",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"ToonTanks",
-				"Win32",
-				"DebugGame",
-				"C:\\GameDev\\ToonTanksV2\\ToonTanks.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"dependsOn": [
-				"ToonTanks Win32 DebugGame Clean"
-			],
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_4.25"
-			}
-		},
-		{
-			"label": "ToonTanks Win32 DebugGame Clean",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
-			"args": [
-				"ToonTanks",
-				"Win32",
-				"DebugGame",
-				"C:\\GameDev\\ToonTanksV2\\ToonTanks.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_4.25"
-			}
-		},
-		{
-			"label": "ToonTanks Win32 Development Build",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"ToonTanks",
-				"Win32",
-				"Development",
-				"C:\\GameDev\\ToonTanksV2\\ToonTanks.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_4.25"
-			}
-		},
-		{
-			"label": "ToonTanks Win32 Development Rebuild",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"ToonTanks",
-				"Win32",
-				"Development",
-				"C:\\GameDev\\ToonTanksV2\\ToonTanks.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"dependsOn": [
-				"ToonTanks Win32 Development Clean"
-			],
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_4.25"
-			}
-		},
-		{
-			"label": "ToonTanks Win32 Development Clean",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
-			"args": [
-				"ToonTanks",
-				"Win32",
-				"Development",
-				"C:\\GameDev\\ToonTanksV2\\ToonTanks.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_4.25"
-			}
-		},
-		{
-			"label": "ToonTanks Win32 Shipping Build",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"ToonTanks",
-				"Win32",
-				"Shipping",
-				"C:\\GameDev\\ToonTanksV2\\ToonTanks.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_4.25"
-			}
-		},
-		{
-			"label": "ToonTanks Win32 Shipping Rebuild",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"ToonTanks",
-				"Win32",
-				"Shipping",
-				"C:\\GameDev\\ToonTanksV2\\ToonTanks.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"dependsOn": [
-				"ToonTanks Win32 Shipping Clean"
-			],
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_4.25"
-			}
-		},
-		{
-			"label": "ToonTanks Win32 Shipping Clean",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
-			"args": [
-				"ToonTanks",
-				"Win32",
-				"Shipping",
-				"C:\\GameDev\\ToonTanksV2\\ToonTanks.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_4.25"
-			}
-		},
-		{
-			"label": "ToonTanks Win32 Test Build",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"ToonTanks",
-				"Win32",
-				"Test",
-				"C:\\GameDev\\ToonTanksV2\\ToonTanks.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_4.25"
-			}
-		},
-		{
-			"label": "ToonTanks Win32 Test Rebuild",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"ToonTanks",
-				"Win32",
-				"Test",
-				"C:\\GameDev\\ToonTanksV2\\ToonTanks.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"dependsOn": [
-				"ToonTanks Win32 Test Clean"
-			],
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_4.25"
-			}
-		},
-		{
-			"label": "ToonTanks Win32 Test Clean",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
-			"args": [
-				"ToonTanks",
-				"Win32",
-				"Test",
-				"C:\\GameDev\\ToonTanksV2\\ToonTanks.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_4.25"
-			}
-		},
-		{
 			"label": "ToonTanks Win64 Debug Build",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Build.bat",
@@ -279,13 +9,13 @@
 				"ToonTanks",
 				"Win64",
 				"Debug",
-				"C:\\GameDev\\ToonTanksV2\\ToonTanks.uproject",
+				"C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ue5-tank\\ToonTanks.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_4.25"
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
 			}
 		},
 		{
@@ -296,7 +26,7 @@
 				"ToonTanks",
 				"Win64",
 				"Debug",
-				"C:\\GameDev\\ToonTanksV2\\ToonTanks.uproject",
+				"C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ue5-tank\\ToonTanks.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -305,7 +35,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_4.25"
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
 			}
 		},
 		{
@@ -316,13 +46,13 @@
 				"ToonTanks",
 				"Win64",
 				"Debug",
-				"C:\\GameDev\\ToonTanksV2\\ToonTanks.uproject",
+				"C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ue5-tank\\ToonTanks.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_4.25"
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
 			}
 		},
 		{
@@ -333,13 +63,13 @@
 				"ToonTanks",
 				"Win64",
 				"DebugGame",
-				"C:\\GameDev\\ToonTanksV2\\ToonTanks.uproject",
+				"C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ue5-tank\\ToonTanks.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_4.25"
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
 			}
 		},
 		{
@@ -350,7 +80,7 @@
 				"ToonTanks",
 				"Win64",
 				"DebugGame",
-				"C:\\GameDev\\ToonTanksV2\\ToonTanks.uproject",
+				"C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ue5-tank\\ToonTanks.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -359,7 +89,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_4.25"
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
 			}
 		},
 		{
@@ -370,13 +100,13 @@
 				"ToonTanks",
 				"Win64",
 				"DebugGame",
-				"C:\\GameDev\\ToonTanksV2\\ToonTanks.uproject",
+				"C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ue5-tank\\ToonTanks.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_4.25"
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
 			}
 		},
 		{
@@ -387,13 +117,13 @@
 				"ToonTanks",
 				"Win64",
 				"Development",
-				"C:\\GameDev\\ToonTanksV2\\ToonTanks.uproject",
+				"C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ue5-tank\\ToonTanks.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_4.25"
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
 			}
 		},
 		{
@@ -404,7 +134,7 @@
 				"ToonTanks",
 				"Win64",
 				"Development",
-				"C:\\GameDev\\ToonTanksV2\\ToonTanks.uproject",
+				"C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ue5-tank\\ToonTanks.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -413,7 +143,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_4.25"
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
 			}
 		},
 		{
@@ -424,67 +154,13 @@
 				"ToonTanks",
 				"Win64",
 				"Development",
-				"C:\\GameDev\\ToonTanksV2\\ToonTanks.uproject",
+				"C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ue5-tank\\ToonTanks.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_4.25"
-			}
-		},
-		{
-			"label": "ToonTanks Win64 Shipping Build",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"ToonTanks",
-				"Win64",
-				"Shipping",
-				"C:\\GameDev\\ToonTanksV2\\ToonTanks.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_4.25"
-			}
-		},
-		{
-			"label": "ToonTanks Win64 Shipping Rebuild",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"ToonTanks",
-				"Win64",
-				"Shipping",
-				"C:\\GameDev\\ToonTanksV2\\ToonTanks.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"dependsOn": [
-				"ToonTanks Win64 Shipping Clean"
-			],
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_4.25"
-			}
-		},
-		{
-			"label": "ToonTanks Win64 Shipping Clean",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
-			"args": [
-				"ToonTanks",
-				"Win64",
-				"Shipping",
-				"C:\\GameDev\\ToonTanksV2\\ToonTanks.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_4.25"
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
 			}
 		},
 		{
@@ -495,13 +171,13 @@
 				"ToonTanks",
 				"Win64",
 				"Test",
-				"C:\\GameDev\\ToonTanksV2\\ToonTanks.uproject",
+				"C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ue5-tank\\ToonTanks.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_4.25"
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
 			}
 		},
 		{
@@ -512,7 +188,7 @@
 				"ToonTanks",
 				"Win64",
 				"Test",
-				"C:\\GameDev\\ToonTanksV2\\ToonTanks.uproject",
+				"C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ue5-tank\\ToonTanks.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -521,7 +197,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_4.25"
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
 			}
 		},
 		{
@@ -532,13 +208,67 @@
 				"ToonTanks",
 				"Win64",
 				"Test",
-				"C:\\GameDev\\ToonTanksV2\\ToonTanks.uproject",
+				"C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ue5-tank\\ToonTanks.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_4.25"
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ToonTanks Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ToonTanks",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ue5-tank\\ToonTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ToonTanks Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ToonTanks",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ue5-tank\\ToonTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ToonTanks Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ToonTanks Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ToonTanks",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ue5-tank\\ToonTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
 			}
 		},
 		{
@@ -549,13 +279,13 @@
 				"ToonTanksEditor",
 				"Win64",
 				"Debug",
-				"C:\\GameDev\\ToonTanksV2\\ToonTanks.uproject",
+				"C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ue5-tank\\ToonTanks.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_4.25"
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
 			}
 		},
 		{
@@ -566,7 +296,7 @@
 				"ToonTanksEditor",
 				"Win64",
 				"Debug",
-				"C:\\GameDev\\ToonTanksV2\\ToonTanks.uproject",
+				"C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ue5-tank\\ToonTanks.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -575,7 +305,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_4.25"
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
 			}
 		},
 		{
@@ -586,13 +316,13 @@
 				"ToonTanksEditor",
 				"Win64",
 				"Debug",
-				"C:\\GameDev\\ToonTanksV2\\ToonTanks.uproject",
+				"C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ue5-tank\\ToonTanks.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_4.25"
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
 			}
 		},
 		{
@@ -603,13 +333,13 @@
 				"ToonTanksEditor",
 				"Win64",
 				"DebugGame",
-				"C:\\GameDev\\ToonTanksV2\\ToonTanks.uproject",
+				"C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ue5-tank\\ToonTanks.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_4.25"
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
 			}
 		},
 		{
@@ -620,7 +350,7 @@
 				"ToonTanksEditor",
 				"Win64",
 				"DebugGame",
-				"C:\\GameDev\\ToonTanksV2\\ToonTanks.uproject",
+				"C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ue5-tank\\ToonTanks.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -629,7 +359,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_4.25"
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
 			}
 		},
 		{
@@ -640,33 +370,30 @@
 				"ToonTanksEditor",
 				"Win64",
 				"DebugGame",
-				"C:\\GameDev\\ToonTanksV2\\ToonTanks.uproject",
+				"C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ue5-tank\\ToonTanks.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_4.25"
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
 			}
 		},
 		{
 			"label": "ToonTanksEditor Win64 Development Build",
-			"group": {
-				"kind": "build",
-				"isDefault": true
-			},
+			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
 				"ToonTanksEditor",
 				"Win64",
 				"Development",
-				"C:\\GameDev\\ToonTanksV2\\ToonTanks.uproject",
+				"C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ue5-tank\\ToonTanks.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_4.25"
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
 			}
 		},
 		{
@@ -677,7 +404,7 @@
 				"ToonTanksEditor",
 				"Win64",
 				"Development",
-				"C:\\GameDev\\ToonTanksV2\\ToonTanks.uproject",
+				"C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ue5-tank\\ToonTanks.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -686,7 +413,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_4.25"
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
 			}
 		},
 		{
@@ -697,13 +424,13 @@
 				"ToonTanksEditor",
 				"Win64",
 				"Development",
-				"C:\\GameDev\\ToonTanksV2\\ToonTanks.uproject",
+				"C:\\Users\\rsluk\\Documents\\Unreal Projects\\git\\ue5-tank\\ToonTanks.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files\\Epic Games\\UE_4.25"
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
 			}
 		}
 	]
