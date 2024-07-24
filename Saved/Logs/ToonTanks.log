@@ -1227,3 +1227,94 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.07.24-13.42.41:648][644]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2024.07.24-13.42.41:650][644]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
 [2024.07.24-13.42.41:699][648]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2024.07.24-13.43.43:191][813]LogSlate: Took 0.000102 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.07.24-13.43.43:199][814]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.24-13.43.43:203][814]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.24-13.43.43:236][815]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.24-13.43.50:486][663]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2024.07.24-13.43.50:486][663]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.24-13.43.50:486][663]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.24-13.43.50:679][664]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.24-13.43.50:713][665]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.24-13.43.52:049][820]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2024.07.24-13.43.52:049][820]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.24-13.43.52:066][820]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2024.07.24-13.43.52:066][820]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.24-13.43.52:066][820]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.24-13.43.52:581][820]LogBlueprint: Warning: Blueprint /Game/BP_Projectile is missing GeneratedClass asset tag
+[2024.07.24-13.43.52:590][820]LogSlate: Took 0.000096 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.07.24-13.44.00:046][658]LogEditorClassViewer: Warning: AssetRegistry Blueprint /Game/BP_Projectile.BP_Projectile is missing tag value for GeneratedClass. Blueprint will not be available to ClassViewer when unloaded.
+[2024.07.24-13.44.01:034][747]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.24-13.44.03:026][969]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.07.24-13.44.03:100][969]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.24-13.44.03:118][969]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawns/BP_PawnTank" FILE="../../../../../../Users/rsluk/Documents/Unreal Projects/git/ue5-tank/Content/Blueprints/Pawns/BP_PawnTank.uasset" SILENT=true
+[2024.07.24-13.44.03:121][969]LogPackageLocalizationCache: Processed 41 localized package path(s) for 1 prioritized culture(s) in 0.003535 seconds
+[2024.07.24-13.44.03:124][969]LogSerialization: UsePackageTrailer: 'true'
+[2024.07.24-13.44.03:125][969]LogSavePackage: Moving output files for package: /Game/Blueprints/Pawns/BP_PawnTank
+[2024.07.24-13.44.03:125][969]LogSavePackage: Moving '../../../../../../Users/rsluk/Documents/Unreal Projects/git/ue5-tank/Saved/BP_PawnTank2236A04A469E646C24CB49BA8088C7BA.tmp' to '../../../../../../Users/rsluk/Documents/Unreal Projects/git/ue5-tank/Content/Blueprints/Pawns/BP_PawnTank.uasset'
+[2024.07.24-13.44.03:134][969]LogFileHelpers: InternalPromptForCheckoutAndSave took 107 ms
+[2024.07.24-13.44.03:137][969]AssetCheck: New page: Asset Save: BP_PawnTank
+[2024.07.24-13.44.03:137][969]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2024.07.24-13.44.05:381][103]LogDerivedDataCache: C:/Users/rsluk/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:32.087 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 17135 files in 19011 folders with total size 2792 MiB.
+[2024.07.24-13.44.18:486][534]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.07.24-13.44.18:492][534]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.07.24-13.44.18:492][534]PIE: New page: PIE session: Main (Jul 24, 2024, 5:44:18 PM)
+[2024.07.24-13.44.18:492][534]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2024.07.24-13.44.18:493][534]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002313s)
+[2024.07.24-13.44.18:493][534]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.002341s)
+[2024.07.24-13.44.18:494][534]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.24-13.44.18:494][534]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.24-13.44.18:494][534]LogAIModule: Creating AISystem for world Main
+[2024.07.24-13.44.18:494][534]LogPlayLevel: PIE: World Init took: (0.000609s)
+[2024.07.24-13.44.18:513][534]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.07.24-13.44.18:514][534]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2024.07.24-13.44.18:514][534]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.07.24-13.44.18:514][534]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.07.24-13.44.18:514][534]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.07.24-13.44.18:514][534]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.07.24-13.44.18:514][534]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.07.24-13.44.18:514][534]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.07.24-13.44.18:514][534]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.07.24-13.44.18:514][534]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.07.24-13.44.18:514][534]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.07.24-13.44.18:514][534]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.07.24-13.44.18:514][534]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.07.24-13.44.18:516][534]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.07.24-13.44.18:535][534]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Arctis Nova Pro Wireless)
+[2024.07.24-13.44.18:536][534]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.07.24-13.44.18:536][534]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.07.24-13.44.18:536][534]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.07.24-13.44.18:536][534]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2024.07.24-13.44.18:536][534]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2024.07.24-13.44.18:537][534]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2024.07.24-13.44.18:537][534]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2024.07.24-13.44.18:537][534]LogInit: FAudioDevice initialized with ID 4.
+[2024.07.24-13.44.18:537][534]LogAudio: Display: Audio Device (ID: 4) registered with world 'Main'.
+[2024.07.24-13.44.18:538][534]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2024.07.24-13.44.18:604][534]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.24-13.44.18:604][534]LogLoad: Game class is 'GameModeBase'
+[2024.07.24-13.44.18:605][534]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2024.07.24-15.44.18
+[2024.07.24-13.44.18:605][534]LogWorld: Bringing up level for play took: 0.001293
+[2024.07.24-13.44.18:607][534]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2024.07.24-13.44.18:609][534]PIE: Server logged in
+[2024.07.24-13.44.18:609][534]PIE: Play in editor total start time 0.119 seconds.
+[2024.07.24-13.44.18:622][534]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2024.07.24-13.44.21:975][871]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.24-13.44.21:975][871]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2024.07.24-13.44.21:975][871]LogSlate: Window 'ToonTanks Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 5)' being destroyed
+[2024.07.24-13.44.21:993][871]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2024.07.24-13.44.21:993][871]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.24-13.44.21:994][871]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.24-13.44.21:996][871]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.24-13.44.22:008][871]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2024.07.24-13.44.22:008][871]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.07.24-13.44.22:009][871]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.07.24-13.44.22:015][871]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.07.24-13.44.22:058][875]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2024.07.24-13.44.23:644][ 63]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.07.24-13.44.23:708][ 63]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawns/BP_PawnTank" FILE="../../../../../../Users/rsluk/Documents/Unreal Projects/git/ue5-tank/Content/Blueprints/Pawns/BP_PawnTank.uasset" SILENT=true
+[2024.07.24-13.44.23:711][ 63]LogSavePackage: Moving output files for package: /Game/Blueprints/Pawns/BP_PawnTank
+[2024.07.24-13.44.23:711][ 63]LogSavePackage: Moving '../../../../../../Users/rsluk/Documents/Unreal Projects/git/ue5-tank/Saved/BP_PawnTankD5CD832143E747F0182C3894758E7F56.tmp' to '../../../../../../Users/rsluk/Documents/Unreal Projects/git/ue5-tank/Content/Blueprints/Pawns/BP_PawnTank.uasset'
+[2024.07.24-13.44.23:719][ 63]LogFileHelpers: InternalPromptForCheckoutAndSave took 74 ms (total: 182 ms)
+[2024.07.24-13.44.23:722][ 63]AssetCheck: New page: Asset Save: BP_PawnTank
+[2024.07.24-13.44.23:722][ 63]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
