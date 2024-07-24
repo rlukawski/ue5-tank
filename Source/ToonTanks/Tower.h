@@ -29,7 +29,7 @@ private:
 
 	void TimerCallback();
 	void ActivateTimer();
-	bool CheckFireCondition();
+	bool InFireCondition();
 
 	UPROPERTY(EditDefaultsOnly, Category = "Combat")
 	float FireRange = 300.f;

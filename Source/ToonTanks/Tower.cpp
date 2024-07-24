@@ -13,10 +13,8 @@ void ATower::Tick(float DeltaTime)
     {
         float Distance = FVector::Dist(GetActorLocation(), Tank->GetActorLocation());
 
-        // Check to see if the Tank is in range
-        if (Distance <= FireRange)
+        if (InFireCondition())
         {
-            // If in range, rotate turret toward Tank
             RotateTurret(Tank->GetActorLocation());
         }
     }
@@ -39,14 +37,14 @@ void ATower::BeginPlay()
     ActivateTimer();
 }
 
-bool ATower::CheckFireCondition()
+bool ATower::InFireCondition()
 {
     return FVector::Dist(GetActorLocation(), Tank->GetActorLocation()) <= FireRange;
 }
 
 void ATower::TimerCallback()
 {
-    if (CheckFireCondition())
+    if (InFireCondition())
     {
         Fire();
     }
