@@ -16,29 +16,14 @@ void ATower::Tick(float DeltaTime)
         // Check to see if the Tank is in range
         if (Distance <= FireRange)
         {
-            if (!GetWorld()->GetTimerManager().IsTimerActive(MyTimerHandle))
-            {
-                ActivateTimer();
-            }
             // If in range, rotate turret toward Tank
             RotateTurret(Tank->GetActorLocation());
-        }
-        else
-        {
-            if (GetWorld()->GetTimerManager().IsTimerActive(MyTimerHandle))
-            {
-                GetWorld()->GetTimerManager().ClearTimer(MyTimerHandle);
-            }
         }
     }
 }
 
 void ATower::ActivateTimer()
 {
-    // Zakładając, że MyTimerHandle to FTimerHandle zadeklarowany w klasie
-    float TimerInterval = 2.0f; // Interwał w sekundach
-    bool bLooping = true;       // Czy timer ma się powtarzać
-
     GetWorld()->GetTimerManager().SetTimer(
         MyTimerHandle,
         this,
@@ -51,9 +36,18 @@ void ATower::BeginPlay()
 {
     Super::BeginPlay();
     Tank = Cast<ATank>(UGameplayStatics::GetPlayerPawn(this, 0));
+    ActivateTimer();
+}
+
+bool ATower::CheckFireCondition()
+{
+    return FVector::Dist(GetActorLocation(), Tank->GetActorLocation()) <= FireRange;
 }
 
 void ATower::TimerCallback()
 {
-    Fire();
+    if (CheckFireCondition())
+    {
+        Fire();
+    }
 }

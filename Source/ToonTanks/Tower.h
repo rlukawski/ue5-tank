@@ -26,9 +26,10 @@ private:
 
 	class ATank* Tank;
 	FTimerHandle MyTimerHandle;
-	
+
 	void TimerCallback();
 	void ActivateTimer();
+	bool CheckFireCondition();
 
 	UPROPERTY(EditDefaultsOnly, Category = "Combat")
 	float FireRange = 300.f;
